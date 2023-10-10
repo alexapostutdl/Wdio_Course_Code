@@ -1,6 +1,7 @@
 import { LoginPage } from "../page-objects/loginPage";
 import { MainPage } from "../page-objects/mainPage";
 import { Registrationpage } from "../page-objects/registrationPage";
+import { ShoppingCartPage } from "../page-objects/shoppingCartPage";
 
 
 class Pages {
@@ -8,6 +9,7 @@ class Pages {
         this.mainPage = new MainPage()
         this.registrationPage = new Registrationpage()
         this.loginPage = new LoginPage()
+        this.shoppingCartPage = new ShoppingCartPage()
  
     }
 }
