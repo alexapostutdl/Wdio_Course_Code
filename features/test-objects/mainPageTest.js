@@ -11,8 +11,6 @@ export class MainPageTest{
         await pages.mainPage.registerButton().click()
     }
 
-    async userFillsInTheRegistration(){
-        
-    }
+    
 
 }

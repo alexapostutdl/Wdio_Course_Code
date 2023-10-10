@@ -10,6 +10,7 @@
     "@wdio/spec-reporter": "^8.16.22"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "scenario": "wdio ./wdio.conf.js --cucumberOpts.tagExpression"
   }
 }

@@ -11,9 +11,9 @@ When("User opens the registration page", async()=>{
 })
 
 When("User fills in the registration", async()=>{
-    YYYYYY
+    await tests.registrationPageTest.userFillsInTheRegistration()
 })
 
 Then("User successfully registers", async()=>{
-    
+    await tests.registrationPageTest.userAssertsRegistration()
 })

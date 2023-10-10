@@ -36,4 +36,8 @@ export class Registrationpage{
         return $('.buttons [type="submit"]')
     }
 
+    confirmRegistration(){
+        return $('.page-body .result')
+    }
+
 }
