@@ -1,7 +1,7 @@
 Feature: User can login to NopCommerce
 
+Background: Open main page
+    Given User opens the main page
 @login 
 Scenario: User can login
-    Given User opens the main page
-    When User opens the login page
     Then Users logs in
