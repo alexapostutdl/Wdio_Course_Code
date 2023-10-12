@@ -15,5 +15,8 @@ When("User increases the quantity & updates the cart", async()=>{
     await tests.shoppingCartTest.updateCart()
 })
 Then("User checks out", async()=>{
+    await tests.shoppingCartTest.userChecksOut()
+})
+Then("User asserts the order was sent", async()=>{
     
 })

@@ -10,3 +10,4 @@ Scenario: User adds items to cart
     When User opens and asserts items in the cart
     When User increases the quantity & updates the cart
     Then User checks out
+    And User asserts the order was sent
